@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:cornflowerblue;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0; /* Ajuste a margem superior do título aqui */
+}
+
+main {
+  padding: 20px;
+  text-align: justify; /* Justifica todo o texto dentro da main */
+  background-color:aqua; /* Cor de fundo */
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 0.5px;
+}
+
+h2 {
+  color: cornflowerblue;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  padding: 10px 15px;
+}
+
+nav ul li a:hover {
+  background-color:darkslateblue;
+}
+
+footer {
+  background-color: cornflowerblue;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.final-text {
+  margin-top: 20px; /* Adiciona 20 pixels de margem superior para afastar o texto final do rodapé */
+}
+
+img {
+  width: 1370px;
+  height: 300px;
+  border: 1px solid #ccc;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  position:sticky;
+  left: 0;
+  top: 0;
+  margin: auto; /* Centraliza a imagem na tela horizontalmente */
+}
+
+#cloudImage.hidden {
+  opacity: 0;
+}
+
+.members {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:aliceblue; /* Cor de fundo */
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+  }
+  
+  .member {
+    width: calc(25% - 20px); /* Calcula a largura para 4 membros por linha com margem de 20px */
+    margin: 10px;
+    text-align: center;
+}
+
+.member {
+  width: calc(25% - 20px); /* Calcula a largura para 4 membros por linha com margem de 20px */
+  margin: 10px;
+  text-align: center;
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.borda {
+  border: 2px solid #ccc; /* Adiciona uma borda sólida de 2 pixels com cor cinza */
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+  padding: 10px;
+}
+
+li {
+  border-bottom: 1px solid #ccc; /* Adiciona uma borda inferior */
+  padding-bottom: 5px; /* Espaçamento entre a borda e o texto */
+  margin-bottom: 10px; /* Espaçamento entre os itens */
+  color:blue;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: circle; /* Tipo de bolinha */
+  font-size: 16px;
+}
