@@ -17,7 +17,7 @@ window.addEventListener('scroll', function() {
   });
 
 // Array de imagens
-const images = ['img/cloud1.jpg', 'img/cloud2.jpg', 'img/cloud3.jpg'];
+const images = ['img/cloud3.png', 'img/cloud2.jpg', 'img/cloud1.jpg'];
 
 // Obtém a referência para a imagem
 const cloudImage = document.getElementById('cloudImage');
